@@ -1,0 +1,313 @@
+/*1200,900,767,550*/
+.setBg{
+    /*position: absolute;*/
+    /*height: 30px;*/
+    /*left: 700px;*/
+    /*right: 139px;*/
+    background: #FEDC45;
+    border-radius: 8%;
+    font-family: Montserrat;
+    /*font-style: normal;*/
+}
+.icons{
+    height: 45px;
+    width: 75px;
+    background: #FEDC45;
+    border-radius: 8%;
+    font-family: Montserrat;
+    font-style: normal;
+}
+.texts{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 49px;
+    display: flex;
+    text-align: center;
+    align-iteonms: center;
+    text-align: center;
+}
+a{
+    color:black;
+}
+.bg{
+    background: #FEDC45;
+}
+.bgWhite{
+    background: white;
+}
+.blur{
+    opacity:70%;
+}
+
+.bordered{
+    border-radius:4%;
+}
+
+
+.bgImg{
+    background:url('../imgages/blur.png') repeat,url('../imgages/bg1.png') no-repeat;
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    height: 500px;
+    /*max-height: 500px;*/
+    background-size: cover;
+
+}
+.onHover:hover{
+    transition-duration: 0.6s;
+    transform: translateY(-3px);
+    background-color: rgba(197, 197, 197, 0.76);
+    border-radius: 10%;
+}
+.bgImg2{
+    background: url('../imgages/blur.png') ,url('../imgages/bg2.png') no-repeat;
+    position: absolute;
+    width:100%;
+    height:auto;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 380px;
+}
+.bgImg3{
+    background: url('../imgages/blur.png') ,url('../imgages/bg3.png') no-repeat;
+    position: absolute;
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+    background-size: cover;
+}
+.bgImg4{
+     background: url('../imgages/blur.png') ,url('../imgages/bg4.png') no-repeat;
+     position: absolute;
+    width: 100%;
+    max-width: 1140px;
+    height: 100%;
+    max-height: 400px;
+    background-size: cover;
+ }
+.bgImg5{
+    background: url('../imgages/blur.png');
+    position:relative;
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+    background-size: cover;
+}
+
+.fSend{
+    background: #FEDC45;
+    border: 1px solid #FEDC45;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    width: 207px;
+    height: 38px;
+}
+.text-color{
+    color: white;
+}
+.happyBrat{
+    position: relative;
+    background: url('../imgages/happymen.png')no-repeat;
+    /*background-repeat: no-repeat;*/
+    width: 90%;
+    padding: 50px;
+    height: 380px;
+    background-size: contain;
+}
+
+.cont3 {
+    position: relative;
+    top:550px;
+}
+.small{
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    font-weight: 500;
+    height: 23px;
+    text-align: center;
+}
+.ispolzuem{
+    position: relative;
+    height: 387px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.ourWorks{
+    height:220px;
+    border-radius: 5px;
+}
+.certificate{
+    height: 240px;
+    width: 200px;
+}
+.zIndex{
+    position: absolute;
+    z-index: 100;
+}
+img{
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+    transition: 1s; /* Время эффекта */
+    /*display: block;*/
+}
+img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+h5{
+    display: block;
+}
+
+
+
+
+
+.resp{
+    width: 100%;
+    height: auto;
+}
+.imgResp{
+    width:93%;
+}
+.resp70{
+    width:70%
+}
+.resp80{
+    width:80%
+}
+.resp85{
+    width:85%
+}
+.resp98{
+    width:98%
+}
+
+@media screen and (max-width: 900px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: none;}
+}
+/*----------------------------MEDIA----------------------*/
+@media screen and (max-width: 550px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+/*-----------------------H---------------------------*/
+@media screen and (min-width: 901px) {
+    h1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    h1{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 767px){
+    Input{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    h2{
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    h2{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    h3{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    h3{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    h3{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    h4{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    h4{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    h4{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    h5{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    h5{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    h5{
+        font-size: 0.7rem;
+    }
+}
+/*-----------------------H---------------------------*/
+
+@media screen and (min-width: 900px) {
+    p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    p{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    p{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 550px){
+    Input{
+        width: 100px;
+    }
+}
+
+
